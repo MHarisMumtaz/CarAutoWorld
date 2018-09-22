@@ -1,0 +1,476 @@
+/* CSS Document */
+
+#layout{
+width:1024px;
+height:1200px;
+background-color:#000000;
+margin:auto;
+}
+body{
+margin:0 auto;
+background-color:#666666;
+}
+.logo {
+	margin:40px 0 0 100px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 38px;
+	font-weight: bold;
+	color: #db9d21;
+	text-align: center;
+	float: left;
+	height: 50px;
+	width: 300px;
+}
+.logo a
+{
+	text-decoration:none;
+	text-outline:none;
+}
+.tagline
+{
+	margin:100px 0 0 -282px;
+	width:300px;
+	height:20px;
+	float:left;
+	font-family: Helvetica, Arial;
+	font-size: 13px;
+	font-weight: bold;
+	color: #06F;
+	text-align: center;
+}
+
+#titlebg
+{
+width:1000px;
+height:123px;
+}
+#hrline{
+width:1024px;
+height:5px;
+float:left;
+background-color:#787878;
+}
+#gradientbg{
+	width: 1024px;
+	height: 300px;
+	float: left;
+	margin-top: 5px;
+	background-image: -webkit-gradient(linear, 100.00% 51.75%, 0.00% 48.25%, color-stop( 73.06% , rgba(83,159,208,1.00)),color-stop( 100% , rgba(24,103,144,1.00)));
+	background-image: -webkit-linear-gradient(178deg,rgba(83,159,208,1.00) 73.06%,rgba(24,103,144,1.00) 100%);
+	background-image: linear-gradient(272deg,rgba(83,159,208,1.00) 73.06%,rgba(24,103,144,1.00) 100%);
+}
+#links{
+float:left;
+width:158px;
+height:300px;
+background-repeat:no-repeat;
+position:relative;
+}
+#arrow{
+background-image:url(images/arrow.jpg);
+	margin:29px 0 0 49px;
+	width:13px;
+	height:18px;
+	background-repeat:no-repeat;
+    position: absolute;
+	}
+	#arrowabout{
+	background-image:url(images/arrow.jpg);
+	margin:29px 0 0 49px;
+	width:13px;
+	height:18px;
+	background-repeat:no-repeat;
+	position: absolute;
+	}
+		#arrowservice{
+	background-image:url(images/arrow.jpg);
+	margin:29px 0 0 49px;
+	width:13px;
+	height:18px;
+	background-repeat:no-repeat;
+	position: absolute;
+	}
+	#arrowcatalogue{
+	background-image:url(images/arrow.jpg);
+	margin:29px 0 0 49px;
+	width:13px;
+	height:18px;
+	background-repeat:no-repeat;
+	position: absolute;
+	}
+	#arrowcontact{
+	background-image:url(images/arrow.jpg);
+	margin:29px 0 0 49px;
+	width:13px;
+	height:18px;
+	background-repeat:no-repeat;
+	position: absolute;
+	}
+		#arrow3{
+	background-image:url(images/arrow.jpg);
+	width:13px;
+	height:18px;
+	background-repeat:no-repeat;
+	position: absolute;
+	margin:29px 0 0 49px;
+	}
+#arrow1{
+    float:left;
+	background-image:url(images/arrow1.jpg);
+	width:4px;
+	height:6px;
+	background-repeat:no-repeat;
+	margin-top:20px;
+	margin-left:10px;		
+}
+.linktxt{
+	width:140px;
+	font-size:14px;
+	font-weight:bold;
+	color:#FFFFFF;
+	margin-left:40px;
+	padding-top:30px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	text-shadow:2px 2px 13px #000;
+}
+.linktxt:hover
+{
+	color:#db9d21;
+}
+#header{
+	width:774px;
+	height:300px;
+	background-repeat:no-repeat;
+	margin-left: 250px;
+}
+#bodypart{
+	margin-top:25px;
+	width:1024px;
+	height:600px;
+	float:right;
+}
+#catalogue{
+width:270px;
+height:600px;
+float:left;
+}
+.contant{
+	width:730px;
+	height:600px;
+	float:right;
+}
+.ourservices
+{
+	margin:0 0 0 5px;
+	width:710px;
+	height:300px;
+	float:left;
+}
+#cart1
+{
+	margin:10px 11px 0 0;
+	width:250px;
+	height:80px;
+	float:right;
+}
+.cat{
+	text-align:center;
+	margin:10px 0 0 20px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	color:#db9d21;
+	width: 200px;
+	height:25px;
+	float:left;
+}
+#caticon1{
+	margin:4px 0 0 4px;
+	background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+	background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+	background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	text-align:center;
+	color:#b7b5ba;
+	width:73px;
+	height:70px;
+	float:left;
+}
+#car1{
+	margin:4px 8px 0 0;
+	width:133px;
+	height:70px;
+	float:right;
+	border:solid;
+	border-radius:5px;
+	border-color:#b7b5ba;;
+	transition:transform 1s;
+}
+#car1:hover {
+    -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+    transform: rotate(360deg);
+}
+
+#line{
+	margin:100px 0 0 0px;
+	background-image:url(images/line.jpg);
+	width:1px;
+	height:400px;
+	float:left;
+}
+#aboutus
+{
+	margin:7px 0 0 4px;
+	width:720px;
+	height:30px;
+	font-family:Arial, Helvetica, sans-serif;;
+	font-weight:bold;
+	font-size:23px;
+	color:#db9d21;
+	text-align:center;
+	float:left;
+}
+#President
+{
+	margin:0 0 0 5px;
+	width:350px;
+	height:250px;
+	float:left;
+}
+#PresidentName
+{
+	margin:10px 20px 0 0;
+	width:150px;
+	height:30px;
+	font-family:Arial, Helvetica, sans-serif;;
+	font-size:25px;
+	color:#b7b5ba;
+	float:right;
+}
+#presidentInfo
+{
+	margin:0 5px 0 0;
+	width:165px;
+	height:200px;
+	font-family:Arial, Helvetica, sans-serif;;
+	font-size:15px;
+	text-align:justify;
+	color:#FFF;
+	float:right;
+}
+#President1
+{
+	margin:0 8px 0 0;
+	width:350px;
+	height:250px;
+	float:right;
+}
+#pic
+{
+	margin:5px 0 0 5px;
+	width:150px;
+	height:240px;
+	float:left;
+}
+footer
+{
+	width:1018px;
+	height:35px;
+	float:left;
+}
+#copyrights
+{
+	width:260px;
+	height:40px;
+	float:right;
+	font-family:Arial, Helvetica, sans-serif;;
+	font-size:13px;
+	text-align:justify;
+	color:#FFF;
+}
+#serviceinfo
+{
+	margin:5px 20px 0 0;
+	width:700px;
+	height:250px;
+	float:right;
+}
+form
+{
+	width: 1000px;
+	height: 520px;
+	float: left;
+	margin: -8px 0 0 9px;
+	color: #db9d21;
+	border-radius: 5px;
+	box-shadow: 4px 4px 05px #FFF;
+	background-image: -webkit-gradient(linear, 100.00% 51.75%, 0.00% 48.25%, color-stop( 3.11% , rgba(83,159,208,1.00)),color-stop( 100% , rgba(24,103,144,1.00)));
+	background-image: -webkit-linear-gradient(178deg,rgba(83,159,208,1.00) 3.11%,rgba(24,103,144,1.00) 100%);
+	background-image: linear-gradient(272deg,rgba(83,159,208,1.00) 3.11%,rgba(24,103,144,1.00) 100%);
+}
+.box
+{
+	margin:10px 0 0 10px;
+	float:left;
+	width:700px;
+	height:50px;
+}
+.txtbox1
+{
+	margin:0 0 0 0;
+	float:left;
+	width:350px;
+	height:35px;
+}
+.txtbox2
+{
+	margin:0 0 0 0;
+	float:right;
+	width:350px;
+	height:35px;
+}
+#lab
+{
+	margin:0 0 0 10px;
+	width:100px;
+	height:30px;
+	float:left;
+	font-size:18px;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color:#FFF;
+}
+#inputname
+{
+	margin: 0 15px 0 0;
+	float: right;
+	width: 220px;
+	height: 30px;
+}
+#inputname input
+{
+	width:215px;
+	height:25px;
+	border:solid #FFF;
+	border-radius:5px;
+}
+#inputname input:hover
+{
+	box-shadow:0px 0px 13px #FFF;
+}
+#comment
+{
+	margin:0 15px 0 0;
+	float:left;
+	width:400px;
+	height:200px;	
+}
+#comment textarea
+{
+	border:none;
+	border-radius:6px;
+	resize:none;
+}
+#comment textarea:hover
+{
+	box-shadow:0px 0px 13px #FFF;
+}
+#submitbtn
+{
+	margin:5px 195px 0 0;
+	float:right;
+	width:200px;
+	height:40px;
+}
+#submitbtn input
+{
+	background-color:#06F;
+	float:right;
+	width:140px;
+	height:35px;
+	color:#FFF;
+	border:none;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+#submitbtn input:hover
+{
+	box-shadow:0px 0px 2px #FFF;
+}
+.address
+{
+	margin:-180px 20px 0 0;
+	width:300px;
+	height:130px;
+	float:right;
+}
+.socialconnect
+{
+	margin:20px 70px 0 0;
+	width:300px;
+	height:100px;
+	float:right;
+	color:#06F;
+	font-size:12px;
+	font-weight:bold;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+#socialicon
+{
+	margin:10px 50px 0 0;
+	width:300px;
+	height:50px;
+	float:left;
+}
+#fb
+{
+	margin:0 0 0 0;
+	width:50px;
+	height:50px;
+	float:left;
+}
+#tw
+{
+	margin:0 0 0 10px;
+	width:50px;
+	height:50px;
+	float:left;
+}
+#linkd
+{
+	margin:0 130px 0 0;
+	width:50px;
+	height:50px;
+	float:right;
+}
+.headline
+{
+	margin:0 0 0 3px;
+	width:1019px;
+	height:40px;
+	float:right;
+	color:#FFF;
+}
+#headlineinner
+{
+	margin:0 0 0 0;
+	width:1019px;
+	height:30px;
+	float:left;
+}
+marquee 
+{
+	color:#FFF;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size:14px;
+}
+#circle
+{
+	margin:3px 0 0 0;
+	width:8px;
+	height:8px;
+	float:left;
+	background-color:#C60;
+	border-radius:40px;
+}
