@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>ContactUs</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link href="stylesheet.css" rel="stylesheet" type="text/css" />
+<!-- Insert to your webpage before the </head> -->
+    <script src="sliderengine/jquery.js"></script>
+    <script src="sliderengine/amazingslider.js"></script>
+    <script src="sliderengine/initslider-1.js"></script>
+    <!-- End of head section HTML codes -->
+    <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; 
+  for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) 
+        x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; 
+  if(d.images){ 
+  	if(!d.MM_p) 
+		d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; 
+	for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ 
+		d.MM_p[j]=new Image; 
+		d.MM_p[j++].src=a[i];
+		}
+	}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  
+  if(!d) 
+    d=document; 
+	if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; 
+	n=n.substring(0,p);
+	}
+  if(!(x=d[n])&&d.all) x=d.all[n]; 
+  for (i=0;!x&&i<d.forms.length;i++) 
+  x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) 
+  x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) 
+  x=d.getElementById(n); 
+  return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; 
+  document.MM_sr=new Array; 
+  for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){
+	   document.MM_sr[j++]=x; 
+	   if(!x.oSrc) 
+	   x.oSrc=x.src; 
+	   x.src=a[i+2];
+	   }
+}
+</script>
+</head>
+
+<body onload="MM_preloadImages('images/facebook-icon-bck.png','images/back_1.png','images/linkd1.png')">
+<div id="layout">
+  <div id="titlebg">
+   <div class="logo"><a href="index.html"><span style="color: #db9d21;">Auto</span><span style="color: #FFFFFF">World</span><span style="color: #db9d21;">.com</span></a></div>
+   <div class="tagline">An internet Gateway <span style="color: #FFF">to Car DealerShip</span></div>
+   <div class="socialconnect"><span style="float:left;">Follow us on:</span>
+ 		<div id="socialicon">
+        	<div id="fb">
+            <a href="https://www.facebook.com" onmouseout="MM_swapImgRestore()" onmouseover=										"MM_swapImage('Image14','','images/facebook-icon-bck.png',1)">
+   			    <img src="images/facebook-icon.png" alt="" width="50" height="50" id="Image14" /></a>
+            </div>
+            <div id="tw">
+            <a href="http://www.twitter.com" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image15','','images/linkd1.png',1)">
+             <img src="images/linkd2.png" alt="" width="50" height="50" id="Image15" /></a> 
+            </div>
+            <div id="linkd">
+              <a href="https://www.linkedin.com" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image16','','images/back_1.png',1)">
+             <img src="images/orig_1.png" alt="" width="50" height="50" id="Image16" /></a> 
+            </div>
+        </div>
+      </div>
+  </div>
+  <hr id="hrline" />
+  
+<div class="headline">
+  	<marquee behavior="slide" direction="left" loop="100" ><div id="circle"></div>
+  <p style="float:right; margin-left:4px; margin-right:10px; margin-top:-2px; text-wrap:suppress;">visited by more than 11 million car shoppers each month, AutoWorld.com is the leading destination for online car shoppers, offering credible and easy-to-understand information from consumers and experts to help buyers formulate opinions on what to buy, where to buy and how much to pay for a car.</p></marquee>
+  </div>
+  
+  <div id="gradientbg">
+    <div id="links">
+      <div id="arrow"></div>
+      <div class="linktxt"> <a href="index.html" class="linktxt">HOME</a> </div>
+      <div id="arrowabout"></div>
+      <div class="linktxt"><a href="Finance.html" class="linktxt">Finance</a> </div>
+      <div id="arrowservice"></div>
+      <div class="linktxt"><a href="Dealer.html" class="linktxt">Dealers</a></div>
+      <div id="arrowcatalogue"></div>
+      <div class="linktxt"><a href="Cataloges.html" class="linktxt">Catalogue</a></div>
+      <div id="arrowcontact"></div>
+      <div class="linktxt"><a href="Contactus.html" class="linktxt">ContactUs</a></div>
+      <div id="arrow3"></div>
+       <div class="linktxt"><a href="WarantySchemas.html" class="linktxt">WarentySchemas</a></div>
+    </div>
+    <div id="header">
+    <!-- Insert to your webpage where you want to display the slider -->
+    <div id="amazingslider-1" style="display:block;position:relative;margin:0px auto 32px;">
+        <ul class="amazingslider-slides" style="display:none;">
+            <li><img src="images/car1.jpg" alt="car1" /></li>
+            <li><a href="www.toyota.com" target="_blank"><img src="images/car2.jpg" alt="car2" /></a></li>
+            <li><a href="www.bmw.com" target="_blank"><img src="images/car3.jpg" alt="car3" /></a></li>
+            <li><a href="www.toyota.com" target="_blank"><img src="images/interior1.jpg" alt="interior1" /></a></li>
+            <li><a href="www.toyota.com" target="_blank"><img src="images/interior2.jpg" alt="interior2" /></a></li>
+        </ul>
+    </div>
+    <!-- End of body section HTML codes -->
+    
+    </div>
+  </div>
+      <!--body part open-->
+  <div id="bodypart">
+  <h1 style="text-align:center; color:#db9d21; float:left; margin-left:10px; margin-top:10px; font-family:'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, sans-serif;">ContactUs</h1>
+  		<form action="" method="post">
+ 				<div class="box">
+                	<div class="txtbox1">
+                    	<div id="lab">First Name</div>
+                        <div id="inputname"><input type="text" name="fname" maxlength="25"/></div>
+                    </div>
+                    <div class="txtbox2">	
+                		<div id="lab">Last Name</div>
+                        <div id="inputname">
+                        <input type="text" name="lname" maxlength="25"/>
+                        </div>
+                	</div>
+ 				</div>
+                <div class="box">
+                	<div id="lab">Contact No.</div>
+                    <div id="inputname" style="float:left; margin-left:5px;">
+                      <input type="text" name="contact" maxlength="15"/>
+                    </div>
+                </div>
+                <div class="box">
+                	<div id="lab">Company :</div>
+                    <div id="inputname" style="float:left; margin-left:5px;">  
+                    	<input type="text" name="lname" maxlength="50"/>
+                    </div>
+                </div>
+                <div class="box">
+                	<div id="lab">Email :</div>
+                    <div id="inputname" style="float:left; margin-left:5px;">  
+                    	<input type="email" name="Email" value=""/>
+                    </div>
+                </div>
+                 <div class="box" style="width:600px; height:200px;">
+                 	<div id="lab">Message :</div>
+                    <div id="comment"><textarea cols="46" rows="11" tabindex="5"></textarea></div>
+                 </div>
+                 <div class="box">
+                 	<div id="submitbtn">
+                    <input type="submit" name="submit" value="Submit"/>
+                    </div>
+                 </div>
+                 <div class="address">
+                   <p style=" text-align:right;font-family:'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, sans-serif; font-size:16px; color:#FFF;">Email Address: Sample@gmail.com <br/> <br/>Contact Number: +92345678910. <br/> <br/>Street: L/2 Block D Five Star Karachi.</p>
+                 </div>
+  		</form>
+    	</div>
+        <!--body part close-->
+         <hr id="hrline" />
+        <footer><div id="copyrights"> © 2014 AutoWorld.com All rights reserved.</div></footer>
+    </div>
+</body>
+</html>
